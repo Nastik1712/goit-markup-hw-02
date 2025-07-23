@@ -41,11 +41,11 @@ address {
 .header-logo {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
   letter-spacing: 0.03em;
   color: #4d5ae5;
-  font-family: "Raleway";
+  line-height: 1.17;
   text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
 }
 
 .header-logo-color {
@@ -88,13 +88,18 @@ address {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  line-height: 1.07;
 }
 
 .hero-buy-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -110,7 +115,6 @@ address {
 
 .hero-buy-btn:hover,
 .hero-buy-btn:focus {
-  background-color: #404bbf;
 }
 
 /*========== FEATURES =======*/
@@ -145,18 +149,21 @@ address {
 /*=========TEAM ==========*/
 
 .team {
+  background-color: #f4f4fd;
 }
 
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .team-list {
+  background-color: #ffffff;
 }
 
 .team-item {
@@ -186,6 +193,13 @@ address {
 }
 
 .portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
 }
 
 .portfolio-list {
@@ -224,11 +238,10 @@ address {
 .footer-logo {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
-  font-family: "Raleway";
-  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
 }
 
 .footer-logo-color {
