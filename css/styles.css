@@ -51,6 +51,14 @@ address {
 .header-logo-color {
   color: #2e2f42;
 }
+.header-menu-list {
+  color: #404bbf;
+}
+
+.header-menu-list:hover,
+.header-menu-link:focus {
+  color: #404bbf;
+}
 
 .header-menu-link {
   font-weight: 500;
@@ -115,6 +123,7 @@ address {
 
 .hero-buy-btn:hover,
 .hero-buy-btn:focus {
+  background-color: #404bbf;
 }
 
 /*========== FEATURES =======*/
@@ -149,7 +158,7 @@ address {
 /*=========TEAM ==========*/
 
 .team {
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
 
 .team-title {
@@ -242,6 +251,7 @@ address {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
 }
 
 .footer-logo-color {
