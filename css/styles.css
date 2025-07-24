@@ -155,7 +155,7 @@ address {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #ffffff;
+  color: #2e2f42;
   text-transform: capitalize;
 }
 
@@ -164,6 +164,7 @@ address {
 }
 
 .team-item {
+  background-color: #ffffff;
 }
 
 .team-name {
